@@ -1,4 +1,7 @@
 // schemas/index.js
-import blog from './blog'
+import homepage from './homepage'
 import project from './project'
-export const schemaTypes = [blog, project]
+import about from './about'
+import projectsPage from './projectsPage'
+import siteSettings from './siteSettings'
+export const schemaTypes = [homepage, project, about, projectsPage, siteSettings]
